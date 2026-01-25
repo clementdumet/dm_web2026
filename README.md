@@ -3,7 +3,7 @@
 
 ![Course Logo](.fig/logo.png)
 
-Welcome to the [DM WEB course](https://celcat.u-bordeaux.fr/calendar/cal?vt=agendaWeek&dt=2025-01-27&et=module&eid=-390114417:-898552971:4:1325816:23&fid0=4TPU257U%20Data%20Management%20Web%20design). In this course, you will learn how to create nice charts, graphs, and dashboards using Python. 
+Welcome to the [DM WEB course](https://celcat.u-bordeaux.fr/calendar/cal?vt=agendaWeek&dt=2026-01-26&et=module&fid0=4TPU257U%20Data%20Management%20Web%20design). In this course, you will learn how to create nice charts, graphs, and dashboards using Python. 
 
 
 
