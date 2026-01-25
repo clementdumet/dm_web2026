@@ -1,6 +1,6 @@
 # Setting up the Environment
 
-For this class, I recommend using Conda combined with Visual Studio Code (yes, it's from Microsoft!). I believe this to be the easiest and fastest setup across all platforms.
+For this class, I recommend using Conda combined with Visual Studio Code. I believe this to be the easiest and fastest setup across all platforms.
 
 ## Choose Your Operating System
 
