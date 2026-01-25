@@ -141,44 +141,74 @@ The terminal is a text-based way to interact with your computer. Here are the es
 
 ---
 
-## Git Basics
+## Following the Class Materials
 
-Git is a version control system - it tracks changes to your files and lets you collaborate with others.
+You have two options to access the class materials:
 
-### First-time setup
+### Option A: Download directly (simple)
+
+Just download each class directly from the course repository:
+1. Go to [github.com/luanteylo/dm_web2026](https://github.com/luanteylo/dm_web2026)
+2. Click the green "Code" button and select "Download ZIP"
+3. Extract the files to your computer
+
+Repeat this for each new class or when the teacher updates the materials.
+
+### Option B: Fork the repository (recommended)
+
+This option lets you keep your own copy, save your work online, and easily get updates from the teacher.
+
+**1. Create a GitHub account**
+
+Go to [github.com](https://github.com) and sign up for a free account.
+
+**2. Fork the course repository**
+
+1. Go to [github.com/luanteylo/dm_web2026](https://github.com/luanteylo/dm_web2026)
+2. Click the "Fork" button (top right)
+3. This creates your own copy of the repository
+
+**3. Clone your fork**
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git clone https://github.com/YOUR_USERNAME/dm_web2026.git
+cd dm_web2026
 ```
 
-### Essential commands
+**4. Set up to receive teacher updates**
+
+```bash
+git remote add upstream https://github.com/luanteylo/dm_web2026.git
+```
+
+**5. Get updates from the teacher (without losing your work)**
+
+When the teacher adds new materials:
+```bash
+# Save your current work first
+git add .
+git commit -m "My work"
+
+# Get updates from the teacher
+git fetch upstream
+git merge upstream/main
+
+# Push everything to your fork
+git push
+```
+
+---
+
+## Git Quick Reference
 
 | Command | What it does |
 |---------|--------------|
-| `git clone <url>` | Downloads a repository |
 | `git status` | Shows what changed |
-| `git add <file>` | Stages a file for commit |
 | `git add .` | Stages all changes |
-| `git commit -m "message"` | Saves your changes with a description |
-| `git push` | Uploads your commits to the server |
-| `git pull` | Downloads updates from the server |
-
-### Typical workflow
-
-```bash
-# 1. Check what changed
-git status
-
-# 2. Stage your changes
-git add .
-
-# 3. Commit with a message
-git commit -m "Added new feature"
-
-# 4. Push to the server
-git push
-```
+| `git commit -m "message"` | Saves your changes |
+| `git push` | Uploads to your fork |
+| `git fetch upstream` | Gets teacher updates |
+| `git merge upstream/main` | Applies teacher updates |
 
 ---
 
