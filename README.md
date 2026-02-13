@@ -7,7 +7,7 @@ Welcome to the [DM WEB course](https://celcat.u-bordeaux.fr/calendar/cal?vt=agen
 
 # Deadlines
 
-- exercise-01 -  **Hard Deadline: 16/02/2026**
+- exercise-01 -  **Hard Deadline: 23/02/2026**
 
 
 # Table of Contents
